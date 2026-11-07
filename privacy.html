@@ -17,23 +17,25 @@
 <body>
 <main>
 <h1>Privacy Policy</h1>
-<p class="meta">Kliprey Uploader · Effective date: 31 October 2026</p>
+<p class="meta">Kliprey Uploader · Effective date: 7 November 2026 · <a href="index.html">Home</a></p>
 
 <p><b>Kliprey Uploader</b> ("the App") is a private, single-user tool run by an individual creator on their own
 computer. It prepares short videos and publishes them to the creator's <b>own</b> social media accounts
-(the channels <i>creyative_id</i>, <i>aldictive_id</i> and <i>creyzytivity</i>). The App is not offered to the public,
+on YouTube, TikTok, Facebook and Instagram (the channels <i>creyative_id</i>, <i>aldictive_id</i> and <i>creyzytivity</i>). The App is not offered to the public,
 has no user sign-up, and is only used to manage accounts that belong to its operator.</p>
 
 <h2>1. What data the App accesses</h2>
 <p>When the operator connects an account, the App receives only what the platform shares for the permissions requested:</p>
 <table>
   <tr><th>Platform</th><th>Permissions</th><th>Data received</th></tr>
-  <tr><td>TikTok (Login Kit, Content Posting API)</td><td><code>user.info.basic</code>, <code>video.upload</code>, <code>video.publish</code></td>
+  <tr><td>TikTok (Login Kit, Content Posting API)</td><td><code>user.info.basic</code>, <code>video.upload</code> (and <code>video.publish</code> only if approved by TikTok)</td>
       <td>Account open ID, display name, avatar URL, access and refresh tokens, status of videos the App uploads.</td></tr>
   <tr><td>YouTube (YouTube Data API)</td><td><code>youtube.upload</code>, <code>youtube.readonly</code></td>
       <td>Channel ID, channel name and avatar, access and refresh tokens, processing status of videos the App uploads.</td></tr>
   <tr><td>Facebook (Pages)</td><td><code>pages_show_list</code>, <code>pages_read_engagement</code>, <code>pages_manage_posts</code></td>
       <td>Page ID, Page name and picture, Page access token, status of Reels the App publishes.</td></tr>
+  <tr><td>Instagram (Instagram Graph API with Facebook Login)</td><td><code>instagram_basic</code>, <code>instagram_content_publish</code></td>
+      <td>Instagram professional account ID, username and profile picture of the account linked to the operator's Page, status of Reels the App publishes.</td></tr>
 </table>
 <p>The App does <b>not</b> read private messages, contacts, followers' personal data, comments, payment data or any
 content other than the videos it uploads itself.</p>
@@ -57,7 +59,7 @@ content other than the videos it uploads itself.</p>
 <p>The App does not sell, rent or share platform data with anyone. Data is only sent back to the platform it came from
 (for example a video sent to TikTok's upload endpoint). To produce narration or text for videos the operator may use
 AI and text-to-speech services; only the operator's own script text is sent there, never data received from TikTok,
-YouTube or Facebook.</p>
+YouTube, Facebook or Instagram.</p>
 
 <h2>5. Retention and deletion</h2>
 <ul>
@@ -66,9 +68,9 @@ YouTube or Facebook.</p>
   <li>Access can also be revoked at any time on the platform:
     TikTok → Settings and privacy → Security → Manage app permissions;
     Google → <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>;
-    Facebook → Settings → Business integrations.</li>
+    Facebook &amp; Instagram → Settings → Business integrations (Instagram: Settings → Apps and websites).</li>
   <li><b>Data deletion request:</b> email the contact below with the subject "Data deletion"; all stored data for
-      that account is deleted within 7 days and the deletion is confirmed by reply.</li>
+      that account is deleted within 7 days and the deletion is confirmed by reply. Full instructions: <a href="data-deletion.html">Data deletion</a>.</li>
 </ul>
 
 <h2>6. YouTube API Services</h2>
